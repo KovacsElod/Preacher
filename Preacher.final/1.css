@@ -1,0 +1,98 @@
+body {
+	font-family: Georgia, serif;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: white
+}
+.Header {
+    text-align: center;
+    padding: 80px;
+	background-image: url("logo.png");
+	background-size: 100% 100%
+}
+.content{
+	text-align: left;
+	background-image: url("1.4.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #f1f1f1;
+	}
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+.nav {
+	position: sticky;
+    top: 0;
+}
+.trailer {
+	float: right;
+	width: 50%;
+	height: auto;
+	margin-right: 2%;
+}
+.text {
+	float: left;
+	text-align: left;
+	width: 39%;
+	margin-left: 2%;
+	color: #f1f1f1s
+}
+.tabla{
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+th {
+	height: 20%;
+}
+table, th {
+	color: #f1f1f1 ;
+	border: 3px solid white;
+	border-collapse: collapse;
+		margin-left: 2%;
+}
+.text2{
+	width: 39%;
+	margin-left: 2%;
+}
+.text3{
+	width: 98%;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.gallery img {
+	width:20%;
+	height: auto;
+	margin-left: 2%;
+}
+form {
+margin-left: 2%;
+}
